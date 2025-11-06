@@ -1,0 +1,26 @@
+{
+  "name": "hedera-deploy-deterministic-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpachhai/hedera-deploy-deterministic-contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kpachhai/hedera-deploy-deterministic-contract/issues"
+  },
+  "homepage": "https://github.com/kpachhai/hedera-deploy-deterministic-contract#readme",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.76.0",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0"
+  }
+}
